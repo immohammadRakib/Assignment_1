@@ -10,3 +10,11 @@ console.log(num1);
 
 // Problem - 2
 
+function reverseString(input: string): string{
+        return input.split('').reverse().join('');
+}
+const reverse = reverseString("typescript");
+console.log(reverse);
+
+// Problem - 3
+
