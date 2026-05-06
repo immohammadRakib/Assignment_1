@@ -18,3 +18,16 @@ console.log(reverse);
 
 // Problem - 3
 
+type StringOrNumber = string | number;
+
+function checkType(input: StringOrNumber){
+        if(typeof input === "string"){
+             return "String";
+        }else{
+                return "Number";
+        }
+}
+const check = checkType("raqeb");
+const check2 = checkType(43);
+console.log(check);
+console.log(check2);
