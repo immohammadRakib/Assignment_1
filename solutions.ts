@@ -62,7 +62,7 @@ function toggleReadStatus(book: Book){
         return {
                 ...book,
                 isRead: true
-        }
+        };
 }
 
 const myBook = { title: "TypeScript Guide", author: "Jane Doe", publishedYear: 2024 };
@@ -88,11 +88,11 @@ class Student extends Person {
         
         constructor(name: string, age: number, grade: string){
                 super(name, age)
-                this.grade = grade
+                this.grade = grade;
 
         }
         getDetails(){
-                console.log(`Name: ${this.name}, Age: ${this.age}, Grade: ${this.grade}`)
+                console.log(`Name: ${this.name}, Age: ${this.age}, Grade: ${this.grade}`);
         }
 }
 
@@ -104,8 +104,8 @@ student.getDetails();
 // Problem - 7
 
 function getIntersection(arr1: number[], arr2: number[]): number[] {
-        return arr1.filter(value => arr2.includes(value))
+        return arr1.filter(value => arr2.includes(value));
 }
 
-const result = getIntersection([1, 2, 3, 4, 5], [3, 4, 5, 6, 7])
+const result = getIntersection([1, 2, 3, 4, 5], [3, 4, 5, 6, 7]);
 console.log(result);
