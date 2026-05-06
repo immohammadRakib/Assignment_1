@@ -27,7 +27,20 @@ function checkType(input: StringOrNumber){
                 return "Number";
         }
 }
-const check = checkType("raqeb");
+const check1 = checkType("raqeb");
 const check2 = checkType(43);
-console.log(check);
+console.log(check1);
 console.log(check2);
+
+// Problem - 4
+
+function getProperty< T,K extends keyof T>(obj: T, key: K): T[K] {
+        return obj[key];
+}
+
+const user = { id: 1, name: "John Doe", age: 21 };
+const userName = getProperty(user, "name");
+console.log(userName);
+
+// Problem - 5
+
