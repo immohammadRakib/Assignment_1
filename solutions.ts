@@ -44,3 +44,21 @@ console.log(userName);
 
 // Problem - 5
 
+interface Book {
+        tittle: string;
+        author : string;
+        ublishedYear: number;
+}
+
+function toggleReadStatus(book: Book){
+        return {
+                ...book,
+                isRead: true
+        }
+}
+
+const myBook = { title: "TypeScript Guide", author: "Jane Doe", publishedYear: 2024 };
+console.log(myBook);
+
+// Problem - 6
+
