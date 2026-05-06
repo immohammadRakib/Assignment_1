@@ -8,6 +8,8 @@ function filterEvenNumbers(nums: number[]): number[] {
 const num1 = filterEvenNumbers([1,2,3,4,5,6,7,8,]);
 console.log(num1);
 
+
+
 // Problem - 2
 
 function reverseString(input: string): string{
@@ -15,6 +17,8 @@ function reverseString(input: string): string{
 }
 const reverse = reverseString("typescript");
 console.log(reverse);
+
+
 
 // Problem - 3
 
@@ -32,6 +36,8 @@ const check2 = checkType(43);
 console.log(check1);
 console.log(check2);
 
+
+
 // Problem - 4
 
 function getProperty< T,K extends keyof T>(obj: T, key: K): T[K] {
@@ -41,6 +47,8 @@ function getProperty< T,K extends keyof T>(obj: T, key: K): T[K] {
 const user = { id: 1, name: "John Doe", age: 21 };
 const userName = getProperty(user, "name");
 console.log(userName);
+
+
 
 // Problem - 5
 
@@ -59,6 +67,8 @@ function toggleReadStatus(book: Book){
 
 const myBook = { title: "TypeScript Guide", author: "Jane Doe", publishedYear: 2024 };
 console.log(myBook);
+
+
 
 // Problem - 6
 
@@ -87,6 +97,8 @@ class Student extends Person {
 
 const student = new Student("Alice", 20, "A");
 student.getDetails();
+
+
 
 // Problem - 7
 
