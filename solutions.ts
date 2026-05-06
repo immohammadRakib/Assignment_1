@@ -89,3 +89,10 @@ const student = new Student("Alice", 20, "A");
 student.getDetails();
 
 // Problem - 7
+
+function getIntersection(arr1: number[], arr2: number[]): number[] {
+        return arr1.filter(value => arr2.includes(value))
+}
+
+const result = getIntersection([1, 2, 3, 4, 5], [3, 4, 5, 6, 7])
+console.log(result);
