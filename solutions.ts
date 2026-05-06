@@ -32,7 +32,7 @@ function checkType(input: StringOrNumber){
         }
 }
 const check1 = checkType("raqeb");
-const check2 = checkType(43);
+const check2 = checkType(42);
 console.log(check1);
 console.log(check2);
 
@@ -53,9 +53,9 @@ console.log(userName);
 // Problem - 5
 
 interface Book {
-        tittle: string;
+        title: string;
         author : string;
-        ublishedYear: number;
+        publishedYear: number;
 }
 
 function toggleReadStatus(book: Book){
@@ -66,7 +66,8 @@ function toggleReadStatus(book: Book){
 }
 
 const myBook = { title: "TypeScript Guide", author: "Jane Doe", publishedYear: 2024 };
-console.log(myBook);
+const bookish = toggleReadStatus(myBook);
+console.log(bookish);
 
 
 
