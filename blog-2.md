@@ -1,7 +1,5 @@
 ---
 title: "Stop Copy-Pasting! Mastering Pick and Omit in TypeScript"
-date: "2024-05-07"
-author: "Your Name"
 ---
 
 # The "Copy-Paste" Trap
